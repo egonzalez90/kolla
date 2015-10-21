@@ -98,7 +98,7 @@ CentOS execute the following:
 ::
 
     yum -y install ntp
-    chkconfig ntpd enable
+    chkconfig ntpd on
     service ntpd start
 
 Libvirt is started by default on many operating systems.  Please disable libvirt
